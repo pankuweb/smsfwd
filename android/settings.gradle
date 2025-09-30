@@ -1,0 +1,13 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'smsforwarder'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+include ':react-native-background-actions'
+project(':react-native-background-actions').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-background-actions/android')
+include ':react-native-android-sms-listener'
+project(':react-native-android-sms-listener').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-android-sms-listener/android')
+include ':react-native-sms-x'
+project(':react-native-sms-x').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sms-x/android/app')
+
