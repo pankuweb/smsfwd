@@ -1,4 +1,4 @@
-package com.smsforwarder
+package com.smsforward365
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

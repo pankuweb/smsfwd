@@ -1,4 +1,4 @@
-package com.smsforwarder
+package com.smsforward365
 
 import android.app.Application
 import com.facebook.react.PackageList

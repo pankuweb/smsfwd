@@ -1,4 +1,4 @@
-package com.smsforwarder
+package com.smsforward365
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

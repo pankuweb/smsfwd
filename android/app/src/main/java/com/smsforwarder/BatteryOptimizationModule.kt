@@ -1,4 +1,4 @@
-package com.smsforwarder
+package com.smsforward365
 
 import android.content.Context
 import android.content.Intent
